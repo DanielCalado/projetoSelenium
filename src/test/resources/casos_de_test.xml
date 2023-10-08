@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<procedimento num="0"
+		desc="testes para a calculador Exponencial">
+		<caso num="0">
+			<numero01>10</numero01>
+			<numero02>5</numero02>
+			<resultado>100000</resultado>
+		</caso>
+		<caso num="1">
+			<numero01>-2</numero01>
+			<numero02>-3</numero02>
+			<resultado>-0,125</resultado>
+		</caso>
+		<caso num="2">
+			<numero01>4.7</numero01>
+			<numero02>1.9</numero02>
+			<resultado>18,922823130166634</resultado>
+		</caso>
+		<caso num="3">
+			<numero01>0</numero01>
+			<numero02>0</numero02>
+			<resultado>1</resultado>
+		</caso>
+		<caso num="4">
+			<numero01>6</numero01>
+			<numero02>a</numero02>
+			<resultado>NaN</resultado>
+		</caso>
+	</procedimento>
+	
+	<procedimento num="1"
+		desc="testes para a fazer operações de soma">
+		<caso num="0">
+			<numero01>10</numero01>
+			<numero02>5</numero02>
+			<resultado>15</resultado>
+		</caso>
+		<caso num="1">
+			<numero01>-2</numero01>
+			<numero02>-3</numero02>
+			<resultado>-5</resultado>
+		</caso>
+		<caso num="2">
+			<numero01>2.5</numero01>
+			<numero02>1.5</numero02>
+			<resultado>4</resultado>
+		</caso>
+		<caso num="3">
+			<numero01>0</numero01>
+			<numero02>0</numero02>
+			<resultado>0</resultado>
+		</caso>
+		<caso num="4">
+			<numero01>6</numero01>
+			<numero02>-10</numero02>
+			<resultado>-4</resultado>
+		</caso>
+	</procedimento>
+	
+	<procedimento num="2"
+		desc="testes para a fazer operações de divisão com multiplicação">
+		<caso num="0">
+			<numero01>10</numero01>
+			<numero02>5</numero02>
+			<numero03>3</numero03>
+			<resultado>6</resultado>
+		</caso>
+		<caso num="1">
+			<numero01>-12</numero01>
+			<numero02>-5</numero02>
+			<numero03>7</numero03>
+			<resultado>16,8</resultado>
+		</caso>
+		<caso num="2">
+			<numero01>9</numero01>
+			<numero02>3</numero02>
+			<numero03>-6</numero03>
+			<resultado>-18</resultado>
+		</caso>
+		<caso num="3">
+			<numero01>0</numero01>
+			<numero02>7</numero02>
+			<numero03>12</numero03>
+			<resultado>0</resultado>
+		</caso>
+		<caso num="4">
+			<numero01>0,5</numero01>
+			<numero02>0,5</numero02>
+			<numero03>0,5</numero03>
+			<resultado>0,5</resultado>
+		</caso>
+	</procedimento>
+	
+	<procedimento num="3"
+		desc="testes para calcular circuferencia usando Pi">
+		<caso num="0">
+			<diametro>12</diametro>
+			<resultado>37,69911184307752</resultado>
+		</caso>
+		<caso num="1">
+			<diametro>7</diametro>
+			<resultado>21,991148575128552</resultado>
+		</caso>
+		<caso num="2">
+			<diametro>0</diametro>
+			<resultado>0</resultado>
+		</caso>
+		<caso num="3">
+			<diametro>5,5</diametro>
+			<resultado>17,27875959474386</resultado>
+		</caso>
+		<caso num="4">
+			<diametro>0,3</diametro>
+			<resultado>0,9424777960769379</resultado>
+		</caso>
+	</procedimento>
+	
+	<procedimento num="4"
+		desc="testes de valores na memoria, somar e subtrair">
+		<caso num="0">
+			<numero01>15</numero01>
+			<numero02>5</numero02>
+			<resultadoSomar>20</resultadoSomar>
+			<resultadoSubtrair>-10</resultadoSubtrair>
+		</caso>
+		<caso num="1">
+			<numero01>40</numero01>
+			<numero02>10</numero02>
+			<resultadoSomar>50</resultadoSomar>
+			<resultadoSubtrair>-30</resultadoSubtrair>
+		</caso>
+		<caso num="2">
+			<numero01>120</numero01>
+			<numero02>-50</numero02>
+			<resultadoSomar>70</resultadoSomar>
+			<resultadoSubtrair>-170</resultadoSubtrair>
+		</caso>
+		<caso num="3">
+			<numero01>0</numero01>
+			<numero02>0</numero02>
+			<resultadoSomar>0</resultadoSomar>
+			<resultadoSubtrair>0</resultadoSubtrair>
+		</caso>
+		<caso num="4">
+			<numero01>7,5</numero01>
+			<numero02>0,5</numero02>
+			<resultadoSomar>8</resultadoSomar>
+			<resultadoSubtrair>-7</resultadoSubtrair>
+		</caso>
+	</procedimento>
+</root>
