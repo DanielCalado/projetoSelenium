@@ -1,6 +1,6 @@
 # projetoSelenium
 
-Projeto apresentado a diciplina de testte de software II
+Projeto apresentado a diciplina de teste de software II
 
 O sistema testa a calculadora disponível em
 https://www.calculadoraonline.com.br/basica.
